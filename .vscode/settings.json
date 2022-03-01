@@ -1,0 +1,6 @@
+{
+  "files.associations": {
+    "*.script": "javascript",
+    "*.ns": "javascript"
+  }
+}
