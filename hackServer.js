@@ -10,7 +10,7 @@ export async function main(ns) {
 			'error',
 			2000
 		);
-		console.error('hackServer.js: Must provide 1 or more arguments to script');
+		ns.tprint('hackServer.js: Must provide 1 or more arguments to script');
 		ns.exit();
 	}
 	const target = ns.args[0];
@@ -48,7 +48,7 @@ export async function main(ns) {
 			ns[existingFiles[0]](target);
 		} else {
 			ns.toast('Could not reach require port level: ' + portsRequired);
-			console.error('Could not reach require port level: ' + portsRequired);
+			ns.tprint('Could not reach require port level: ' + portsRequired);
 			ns.exit();
 		}
 	}
@@ -57,7 +57,7 @@ export async function main(ns) {
 			ns[existingFiles[1]](target);
 		} else {
 			ns.toast('Could not reach require port level: ' + portsRequired);
-			console.error('Could not reach require port level: ' + portsRequired);
+			ns.tprint('Could not reach require port level: ' + portsRequired);
 			ns.exit();
 		}
 	}
@@ -66,7 +66,7 @@ export async function main(ns) {
 			ns[existingFiles[2]](target);
 		} else {
 			ns.toast('Could not reach require port level: ' + portsRequired);
-			console.error('Could not reach require port level: ' + portsRequired);
+			ns.tprint('Could not reach require port level: ' + portsRequired);
 			ns.exit();
 		}
 	}
@@ -75,7 +75,7 @@ export async function main(ns) {
 			ns[existingFiles[3]](target);
 		} else {
 			ns.toast('Could not reach require port level: ' + portsRequired);
-			console.error('Could not reach require port level: ' + portsRequired);
+			ns.tprint('Could not reach require port level: ' + portsRequired);
 			ns.exit();
 		}
 	}
@@ -84,7 +84,7 @@ export async function main(ns) {
 			ns[existingFiles[4]](target);
 		} else {
 			ns.toast('Could not reach require port level: ' + portsRequired);
-			console.error('Could not reach require port level: ' + portsRequired);
+			ns.tprint('Could not reach require port level: ' + portsRequired);
 			ns.exit();
 		}
 	}
