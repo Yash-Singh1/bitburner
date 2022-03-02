@@ -12,5 +12,5 @@ My aliases are:
 crime -> run crime.js
 alias crime="run crime.js"
 
-hack -> run hackServer.js
-alias hack="run hackServer.js"
+hackServer -> run hackServer.js
+alias hackServer="run hackServer.js"
