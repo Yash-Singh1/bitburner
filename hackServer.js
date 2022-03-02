@@ -10,7 +10,7 @@ export async function main(ns) {
 			'error',
 			2000
 		);
-		ns.tprint('hackServer.js: Must provide 1 or more arguments to script');
+		ns.tprint('Must provide 1 or more arguments to script');
 		ns.exit();
 	}
 	const target = ns.args[0];
