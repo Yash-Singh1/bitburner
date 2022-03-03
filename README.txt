@@ -14,3 +14,6 @@ alias crime="run crime.js"
 
 hackServer -> run hackServer.js
 alias hackServer="run hackServer.js"
+
+getServerMaxMoney -> run getServerMaxMoney.js
+alias getServerMaxMoney="run getServerMaxMoney.js"
